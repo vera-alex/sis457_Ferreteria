@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadFerreteria", "CadFerrete
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClnFerreteria", "ClnFerreteria\ClnFerreteria.csproj", "{CDF38242-F7EA-4644-B9D6-10C9606A875E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CpFerreteria", "CpFerreteria\CpFerreteria.csproj", "{7C3E7FE3-EFE1-489C-912E-19CA1ECE27A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CDF38242-F7EA-4644-B9D6-10C9606A875E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDF38242-F7EA-4644-B9D6-10C9606A875E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDF38242-F7EA-4644-B9D6-10C9606A875E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C3E7FE3-EFE1-489C-912E-19CA1ECE27A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C3E7FE3-EFE1-489C-912E-19CA1ECE27A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C3E7FE3-EFE1-489C-912E-19CA1ECE27A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C3E7FE3-EFE1-489C-912E-19CA1ECE27A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

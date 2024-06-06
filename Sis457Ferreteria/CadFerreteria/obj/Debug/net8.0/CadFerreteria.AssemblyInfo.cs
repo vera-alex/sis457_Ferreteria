@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CadFerreteria")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd952f598774e2ae6dd50c9fa67a89955971916f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8d3050e1be18e49fd581ba76c2f95972200476d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CadFerreteria")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CadFerreteria")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
