@@ -53,17 +53,17 @@
             this.ribbonGroup8 = new C1.Win.Ribbon.RibbonGroup();
             this.btnReRegistroCompras = new C1.Win.Ribbon.RibbonButton();
             this.ribbonTab3 = new C1.Win.Ribbon.RibbonTab();
+            this.ribbonGroup11 = new C1.Win.Ribbon.RibbonGroup();
+            this.btnAdEmpleado = new C1.Win.Ribbon.RibbonButton();
             this.ribbonGroup6 = new C1.Win.Ribbon.RibbonGroup();
             this.btnAdUsuario = new C1.Win.Ribbon.RibbonButton();
-            this.ribbonTopToolBar1 = new C1.Win.Ribbon.RibbonTopToolBar();
-            this.pnlContenedor = new System.Windows.Forms.Panel();
             this.ribbonTab5 = new C1.Win.Ribbon.RibbonTab();
             this.ribbonGroup9 = new C1.Win.Ribbon.RibbonGroup();
             this.btnAyAcercaDe = new C1.Win.Ribbon.RibbonButton();
             this.ribbonGroup10 = new C1.Win.Ribbon.RibbonGroup();
             this.btnAyManualUsuario = new C1.Win.Ribbon.RibbonButton();
-            this.ribbonGroup11 = new C1.Win.Ribbon.RibbonGroup();
-            this.btnAdEmpleado = new C1.Win.Ribbon.RibbonButton();
+            this.ribbonTopToolBar1 = new C1.Win.Ribbon.RibbonTopToolBar();
+            this.pnlContenedor = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.c1Ribbon1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -230,6 +230,19 @@
             this.ribbonTab3.Name = "ribbonTab3";
             this.ribbonTab3.Text = "Administración";
             // 
+            // ribbonGroup11
+            // 
+            this.ribbonGroup11.Items.Add(this.btnAdEmpleado);
+            this.ribbonGroup11.Name = "ribbonGroup11";
+            // 
+            // btnAdEmpleado
+            // 
+            this.btnAdEmpleado.IconSet.Add(new C1.Framework.C1BitmapIcon("DefaultImage", new System.Drawing.Size(16, 16), System.Drawing.Color.Transparent, "DefaultImage", -1));
+            this.btnAdEmpleado.IconSet.Add(new C1.Framework.C1BitmapIcon(null, new System.Drawing.Size(128, 128), System.Drawing.Color.Transparent, ((System.Drawing.Image)(resources.GetObject("btnAdEmpleado.IconSet")))));
+            this.btnAdEmpleado.Name = "btnAdEmpleado";
+            this.btnAdEmpleado.Text = "Empleados";
+            this.btnAdEmpleado.Click += new System.EventHandler(this.btnAdEmpleado_Click);
+            // 
             // ribbonGroup6
             // 
             this.ribbonGroup6.Items.Add(this.btnAdUsuario);
@@ -242,20 +255,6 @@
             this.btnAdUsuario.Name = "btnAdUsuario";
             this.btnAdUsuario.Text = "Usuarios";
             this.btnAdUsuario.Click += new System.EventHandler(this.btnAdUsuario_Click);
-            // 
-            // ribbonTopToolBar1
-            // 
-            this.ribbonTopToolBar1.Name = "ribbonTopToolBar1";
-            // 
-            // pnlContenedor
-            // 
-            this.pnlContenedor.BackColor = System.Drawing.Color.Transparent;
-            this.pnlContenedor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlContenedor.Location = new System.Drawing.Point(0, 201);
-            this.pnlContenedor.Name = "pnlContenedor";
-            this.pnlContenedor.Size = new System.Drawing.Size(1482, 852);
-            this.pnlContenedor.TabIndex = 1;
             // 
             // ribbonTab5
             // 
@@ -288,18 +287,19 @@
             this.btnAyManualUsuario.Name = "btnAyManualUsuario";
             this.btnAyManualUsuario.Text = "Manual de Usuario";
             // 
-            // ribbonGroup11
+            // ribbonTopToolBar1
             // 
-            this.ribbonGroup11.Items.Add(this.btnAdEmpleado);
-            this.ribbonGroup11.Name = "ribbonGroup11";
+            this.ribbonTopToolBar1.Name = "ribbonTopToolBar1";
             // 
-            // btnAdEmpleado
+            // pnlContenedor
             // 
-            this.btnAdEmpleado.IconSet.Add(new C1.Framework.C1BitmapIcon("DefaultImage", new System.Drawing.Size(16, 16), System.Drawing.Color.Transparent, "DefaultImage", -1));
-            this.btnAdEmpleado.IconSet.Add(new C1.Framework.C1BitmapIcon(null, new System.Drawing.Size(128, 128), System.Drawing.Color.Transparent, ((System.Drawing.Image)(resources.GetObject("btnAdEmpleado.IconSet")))));
-            this.btnAdEmpleado.Name = "btnAdEmpleado";
-            this.btnAdEmpleado.Text = "Empleados";
-            this.btnAdEmpleado.Click += new System.EventHandler(this.btnAdEmpleado_Click);
+            this.pnlContenedor.BackColor = System.Drawing.Color.Transparent;
+            this.pnlContenedor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnlContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlContenedor.Location = new System.Drawing.Point(0, 201);
+            this.pnlContenedor.Name = "pnlContenedor";
+            this.pnlContenedor.Size = new System.Drawing.Size(1482, 852);
+            this.pnlContenedor.TabIndex = 1;
             // 
             // FrmPrincipal
             // 
@@ -313,6 +313,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "::: Todo en Uno - Principal :::";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmPrincipal_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.c1Ribbon1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

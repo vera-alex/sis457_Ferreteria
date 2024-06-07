@@ -27,3 +27,13 @@ C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Debug\CpFerreteria
 C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Debug\CpFerreteria.FrmEmpleado.resources
 C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Debug\CpFerreteria.FrmReporteCompra.resources
 C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Debug\CpFerreteria.FrmReporteVenta.resources
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Debug\CadFerreteria.dll
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Debug\ClnFerreteria.dll
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Debug\EntityFramework.dll
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Debug\EntityFramework.SqlServer.dll
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Debug\CadFerreteria.pdb
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Debug\CadFerreteria.dll.config
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Debug\ClnFerreteria.pdb
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Debug\ClnFerreteria.dll.config
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Debug\EntityFramework.xml
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Debug\EntityFramework.SqlServer.xml

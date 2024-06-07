@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CadFerreteria;
+using ClnFerreteria;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -44,7 +46,21 @@ namespace CpFerreteria
         {
             if (validar())
             {
-                new FrmPrincipal().ShowDialog();
+                var usuario = UsuarioCln.validar(txtUsuario.Text, Util.Encrypt(txtClave.Text));
+                if (usuario != null)
+                {
+                    Util.usuario = usuario;
+                    txtClave.Text = string.Empty;
+                    txtUsuario.Focus();
+                    txtUsuario.SelectAll();
+                    Visible = false;
+                    new FrmPrincipal(this).ShowDialog();
+                }
+                else
+                {
+                    MessageBox.Show("Usuario y/o contraseña incorrectos", "::: Todo en Uno - Mensaje :::",
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 

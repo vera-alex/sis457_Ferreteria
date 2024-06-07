@@ -1,5 +1,4 @@
-﻿using C1.Win.Ribbon;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,10 +13,12 @@ namespace CpFerreteria
     public partial class FrmPrincipal : Form
     {
         private static Form formularioActual = null;
+        FrmAutenticacion frmAutenticacion;
 
-        public FrmPrincipal()
+        public FrmPrincipal(FrmAutenticacion frmAutenticacion)
         {
             InitializeComponent();
+            this.frmAutenticacion = frmAutenticacion;
         }
 
         private void abrirFormulario(Form formulario)
@@ -82,6 +83,11 @@ namespace CpFerreteria
         private void btnAdEmpleado_Click(object sender, EventArgs e)
         {
             abrirFormulario(new FrmEmpleado());
+        }
+
+        private void FrmPrincipal_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            frmAutenticacion.Visible = true;
         }
     }
 }
