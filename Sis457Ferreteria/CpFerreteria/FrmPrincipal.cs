@@ -63,5 +63,10 @@ namespace CpFerreteria
         {
             abrirFormulario(new FrmCompra());
         }
+
+        private void btnCVVentas_Click(object sender, EventArgs e)
+        {
+            abrirFormulario(new FrmVenta());
+        }
     }
 }

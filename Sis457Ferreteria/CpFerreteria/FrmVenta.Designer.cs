@@ -36,6 +36,8 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -52,10 +54,12 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.label11 = new System.Windows.Forms.Label();
             this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.label8 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.groupBox3.SuspendLayout();
@@ -97,7 +101,7 @@
             this.textBox6.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.textBox6.Enabled = false;
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(1093, 662);
+            this.textBox6.Location = new System.Drawing.Point(1093, 466);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(192, 28);
             this.textBox6.TabIndex = 34;
@@ -109,7 +113,7 @@
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.White;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(1089, 622);
+            this.label10.Location = new System.Drawing.Point(1089, 426);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(124, 22);
             this.label10.TabIndex = 33;
@@ -152,9 +156,9 @@
             // 
             this.groupBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.groupBox3.BackColor = System.Drawing.Color.White;
-            this.groupBox3.Controls.Add(this.numericUpDown3);
+            this.groupBox3.Controls.Add(this.textBox7);
+            this.groupBox3.Controls.Add(this.textBox5);
             this.groupBox3.Controls.Add(this.label8);
-            this.groupBox3.Controls.Add(this.numericUpDown2);
             this.groupBox3.Controls.Add(this.label11);
             this.groupBox3.Controls.Add(this.numericUpDown1);
             this.groupBox3.Controls.Add(this.label9);
@@ -170,6 +174,28 @@
             this.groupBox3.TabIndex = 30;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Información Producto";
+            // 
+            // label8
+            // 
+            this.label8.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(803, 39);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(60, 22);
+            this.label8.TabIndex = 27;
+            this.label8.Text = "Stock:";
+            // 
+            // label11
+            // 
+            this.label11.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(623, 39);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(66, 22);
+            this.label11.TabIndex = 25;
+            this.label11.Text = "Precio:";
             // 
             // label9
             // 
@@ -240,9 +266,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(6, 30);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(120, 22);
+            this.label3.Size = new System.Drawing.Size(175, 22);
             this.label3.TabIndex = 1;
-            this.label3.Text = "Razón Social:";
+            this.label3.Text = "Cédula de Identidad:";
             // 
             // textBox2
             // 
@@ -261,9 +287,9 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(375, 30);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 22);
+            this.label4.Size = new System.Drawing.Size(78, 22);
             this.label4.TabIndex = 19;
-            this.label4.Text = "NIT:";
+            this.label4.Text = "Nombre:";
             // 
             // groupBox2
             // 
@@ -280,7 +306,7 @@
             this.groupBox2.Size = new System.Drawing.Size(714, 94);
             this.groupBox2.TabIndex = 29;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Información Proveedor";
+            this.groupBox2.Text = "Información Cliente";
             // 
             // textBox1
             // 
@@ -346,55 +372,78 @@
             this.label7.Size = new System.Drawing.Size(1318, 806);
             this.label7.TabIndex = 26;
             // 
+            // textBox5
+            // 
+            this.textBox5.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textBox5.Enabled = false;
+            this.textBox5.Location = new System.Drawing.Point(627, 65);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(149, 28);
+            this.textBox5.TabIndex = 29;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textBox7.Enabled = false;
+            this.textBox7.Location = new System.Drawing.Point(807, 64);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(149, 28);
+            this.textBox7.TabIndex = 30;
+            // 
+            // label12
+            // 
+            this.label12.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.White;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(1089, 539);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(91, 22);
+            this.label12.TabIndex = 36;
+            this.label12.Text = "Paga con:";
+            // 
             // numericUpDown2
             // 
             this.numericUpDown2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.numericUpDown2.DecimalPlaces = 2;
+            this.numericUpDown2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown2.Increment = new decimal(new int[] {
             1,
             0,
             0,
-            65536});
-            this.numericUpDown2.Location = new System.Drawing.Point(629, 65);
+            131072});
+            this.numericUpDown2.Location = new System.Drawing.Point(1093, 575);
             this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(153, 28);
-            this.numericUpDown2.TabIndex = 26;
-            // 
-            // label11
-            // 
-            this.label11.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(623, 39);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(159, 22);
-            this.label11.TabIndex = 25;
-            this.label11.Text = "Precio de Compra:";
+            this.numericUpDown2.Size = new System.Drawing.Size(192, 28);
+            this.numericUpDown2.TabIndex = 37;
             // 
             // numericUpDown3
             // 
             this.numericUpDown3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.numericUpDown3.DecimalPlaces = 2;
+            this.numericUpDown3.Enabled = false;
+            this.numericUpDown3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown3.Increment = new decimal(new int[] {
             1,
             0,
             0,
-            65536});
-            this.numericUpDown3.Location = new System.Drawing.Point(809, 65);
+            131072});
+            this.numericUpDown3.Location = new System.Drawing.Point(1093, 657);
             this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(153, 28);
-            this.numericUpDown3.TabIndex = 28;
+            this.numericUpDown3.Size = new System.Drawing.Size(192, 28);
+            this.numericUpDown3.TabIndex = 39;
             // 
-            // label8
+            // label13
             // 
-            this.label8.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(803, 39);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(143, 22);
-            this.label8.TabIndex = 27;
-            this.label8.Text = "Precio de Venta:";
+            this.label13.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.White;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(1089, 621);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(76, 22);
+            this.label13.TabIndex = 38;
+            this.label13.Text = "Cambio:";
             // 
             // FrmVenta
             // 
@@ -402,6 +451,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(87)))), ((int)(((byte)(154)))));
             this.ClientSize = new System.Drawing.Size(1382, 868);
+            this.Controls.Add(this.numericUpDown3);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.numericUpDown2);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.label10);
@@ -439,9 +492,7 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox3;
@@ -459,5 +510,11 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.NumericUpDown numericUpDown3;
+        private System.Windows.Forms.Label label13;
     }
 }

@@ -36,6 +36,7 @@
             this.ribbonQat1 = new C1.Win.Ribbon.RibbonQat();
             this.ribbonTab1 = new C1.Win.Ribbon.RibbonTab();
             this.ribbonGroup1 = new C1.Win.Ribbon.RibbonGroup();
+            this.btnCaCategoria = new C1.Win.Ribbon.RibbonButton();
             this.btnCaProductos = new C1.Win.Ribbon.RibbonButton();
             this.ribbonGroup2 = new C1.Win.Ribbon.RibbonGroup();
             this.btnCaProveedor = new C1.Win.Ribbon.RibbonButton();
@@ -45,12 +46,11 @@
             this.ribbonGroup4 = new C1.Win.Ribbon.RibbonGroup();
             this.btnCVCompras = new C1.Win.Ribbon.RibbonButton();
             this.ribbonGroup5 = new C1.Win.Ribbon.RibbonGroup();
-            this.ribbonButton5 = new C1.Win.Ribbon.RibbonButton();
+            this.btnCVVentas = new C1.Win.Ribbon.RibbonButton();
             this.ribbonTab3 = new C1.Win.Ribbon.RibbonTab();
             this.ribbonGroup6 = new C1.Win.Ribbon.RibbonGroup();
             this.btnAdUsuario = new C1.Win.Ribbon.RibbonButton();
             this.ribbonTopToolBar1 = new C1.Win.Ribbon.RibbonTopToolBar();
-            this.btnCaCategoria = new C1.Win.Ribbon.RibbonButton();
             this.pnlContenedor = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.c1Ribbon1)).BeginInit();
             this.SuspendLayout();
@@ -100,6 +100,14 @@
             this.ribbonGroup1.Items.Add(this.btnCaCategoria);
             this.ribbonGroup1.Items.Add(this.btnCaProductos);
             this.ribbonGroup1.Name = "ribbonGroup1";
+            // 
+            // btnCaCategoria
+            // 
+            this.btnCaCategoria.IconSet.Add(new C1.Framework.C1BitmapIcon("DefaultImage", new System.Drawing.Size(16, 16), System.Drawing.Color.Transparent, "DefaultImage", -1));
+            this.btnCaCategoria.IconSet.Add(new C1.Framework.C1BitmapIcon(null, new System.Drawing.Size(64, 64), System.Drawing.Color.Transparent, ((System.Drawing.Image)(resources.GetObject("btnCaCategoria.IconSet")))));
+            this.btnCaCategoria.Name = "btnCaCategoria";
+            this.btnCaCategoria.Text = "Categorías";
+            this.btnCaCategoria.Click += new System.EventHandler(this.btnCaCategoria_Click);
             // 
             // btnCaProductos
             // 
@@ -157,15 +165,16 @@
             // 
             // ribbonGroup5
             // 
-            this.ribbonGroup5.Items.Add(this.ribbonButton5);
+            this.ribbonGroup5.Items.Add(this.btnCVVentas);
             this.ribbonGroup5.Name = "ribbonGroup5";
             // 
-            // ribbonButton5
+            // btnCVVentas
             // 
-            this.ribbonButton5.IconSet.Add(new C1.Framework.C1BitmapIcon("DefaultImage", new System.Drawing.Size(16, 16), System.Drawing.Color.Transparent, "DefaultImage", -1));
-            this.ribbonButton5.IconSet.Add(new C1.Framework.C1BitmapIcon(null, new System.Drawing.Size(128, 128), System.Drawing.Color.Transparent, ((System.Drawing.Image)(resources.GetObject("ribbonButton5.IconSet")))));
-            this.ribbonButton5.Name = "ribbonButton5";
-            this.ribbonButton5.Text = "Ventas";
+            this.btnCVVentas.IconSet.Add(new C1.Framework.C1BitmapIcon("DefaultImage", new System.Drawing.Size(16, 16), System.Drawing.Color.Transparent, "DefaultImage", -1));
+            this.btnCVVentas.IconSet.Add(new C1.Framework.C1BitmapIcon(null, new System.Drawing.Size(128, 128), System.Drawing.Color.Transparent, ((System.Drawing.Image)(resources.GetObject("btnCVVentas.IconSet")))));
+            this.btnCVVentas.Name = "btnCVVentas";
+            this.btnCVVentas.Text = "Ventas";
+            this.btnCVVentas.Click += new System.EventHandler(this.btnCVVentas_Click);
             // 
             // ribbonTab3
             // 
@@ -189,14 +198,6 @@
             // ribbonTopToolBar1
             // 
             this.ribbonTopToolBar1.Name = "ribbonTopToolBar1";
-            // 
-            // btnCaCategoria
-            // 
-            this.btnCaCategoria.IconSet.Add(new C1.Framework.C1BitmapIcon("DefaultImage", new System.Drawing.Size(16, 16), System.Drawing.Color.Transparent, "DefaultImage", -1));
-            this.btnCaCategoria.IconSet.Add(new C1.Framework.C1BitmapIcon(null, new System.Drawing.Size(64, 64), System.Drawing.Color.Transparent, ((System.Drawing.Image)(resources.GetObject("btnCaCategoria.IconSet")))));
-            this.btnCaCategoria.Name = "btnCaCategoria";
-            this.btnCaCategoria.Text = "Categorías";
-            this.btnCaCategoria.Click += new System.EventHandler(this.btnCaCategoria_Click);
             // 
             // pnlContenedor
             // 
@@ -245,7 +246,7 @@
         private C1.Win.Ribbon.RibbonGroup ribbonGroup4;
         private C1.Win.Ribbon.RibbonButton btnCVCompras;
         private C1.Win.Ribbon.RibbonGroup ribbonGroup5;
-        private C1.Win.Ribbon.RibbonButton ribbonButton5;
+        private C1.Win.Ribbon.RibbonButton btnCVVentas;
         private C1.Win.Ribbon.RibbonTab ribbonTab3;
         private C1.Win.Ribbon.RibbonGroup ribbonGroup6;
         private C1.Win.Ribbon.RibbonButton btnAdUsuario;
