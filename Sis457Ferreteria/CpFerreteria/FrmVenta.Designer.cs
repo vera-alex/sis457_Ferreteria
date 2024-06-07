@@ -36,6 +36,8 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -54,8 +56,6 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
@@ -175,6 +175,24 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Información Producto";
             // 
+            // textBox7
+            // 
+            this.textBox7.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textBox7.Enabled = false;
+            this.textBox7.Location = new System.Drawing.Point(807, 64);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(149, 28);
+            this.textBox7.TabIndex = 30;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textBox5.Enabled = false;
+            this.textBox5.Location = new System.Drawing.Point(627, 65);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(149, 28);
+            this.textBox5.TabIndex = 29;
+            // 
             // label8
             // 
             this.label8.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -211,7 +229,7 @@
             // textBox3
             // 
             this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBox3.Location = new System.Drawing.Point(214, 65);
+            this.textBox3.Location = new System.Drawing.Point(205, 65);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(329, 28);
             this.textBox3.TabIndex = 20;
@@ -221,7 +239,7 @@
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(210, 39);
+            this.label5.Location = new System.Drawing.Point(201, 39);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(87, 22);
             this.label5.TabIndex = 19;
@@ -329,6 +347,7 @@
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.Enabled = false;
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker1.Location = new System.Drawing.Point(10, 56);
             this.dateTimePicker1.Name = "dateTimePicker1";
@@ -347,7 +366,7 @@
             this.groupBox1.Size = new System.Drawing.Size(513, 94);
             this.groupBox1.TabIndex = 28;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Información Compra";
+            this.groupBox1.Text = "Información Venta";
             // 
             // label1
             // 
@@ -357,9 +376,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(62, 57);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(252, 32);
+            this.label1.Size = new System.Drawing.Size(226, 32);
             this.label1.TabIndex = 27;
-            this.label1.Text = "Registrar Compra";
+            this.label1.Text = "Registrar Venta";
             // 
             // label7
             // 
@@ -371,24 +390,6 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(1318, 806);
             this.label7.TabIndex = 26;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBox5.Enabled = false;
-            this.textBox5.Location = new System.Drawing.Point(627, 65);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(149, 28);
-            this.textBox5.TabIndex = 29;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBox7.Enabled = false;
-            this.textBox7.Location = new System.Drawing.Point(807, 64);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(149, 28);
-            this.textBox7.TabIndex = 30;
             // 
             // label12
             // 
@@ -404,7 +405,7 @@
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.numericUpDown2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.numericUpDown2.DecimalPlaces = 2;
             this.numericUpDown2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown2.Increment = new decimal(new int[] {
@@ -419,7 +420,7 @@
             // 
             // numericUpDown3
             // 
-            this.numericUpDown3.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.numericUpDown3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.numericUpDown3.DecimalPlaces = 2;
             this.numericUpDown3.Enabled = false;
             this.numericUpDown3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

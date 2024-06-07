@@ -47,11 +47,23 @@
             this.btnCVCompras = new C1.Win.Ribbon.RibbonButton();
             this.ribbonGroup5 = new C1.Win.Ribbon.RibbonGroup();
             this.btnCVVentas = new C1.Win.Ribbon.RibbonButton();
+            this.ribbonTab4 = new C1.Win.Ribbon.RibbonTab();
+            this.ribbonGroup7 = new C1.Win.Ribbon.RibbonGroup();
+            this.btnReRegistroVentas = new C1.Win.Ribbon.RibbonButton();
+            this.ribbonGroup8 = new C1.Win.Ribbon.RibbonGroup();
+            this.btnReRegistroCompras = new C1.Win.Ribbon.RibbonButton();
             this.ribbonTab3 = new C1.Win.Ribbon.RibbonTab();
             this.ribbonGroup6 = new C1.Win.Ribbon.RibbonGroup();
             this.btnAdUsuario = new C1.Win.Ribbon.RibbonButton();
             this.ribbonTopToolBar1 = new C1.Win.Ribbon.RibbonTopToolBar();
             this.pnlContenedor = new System.Windows.Forms.Panel();
+            this.ribbonTab5 = new C1.Win.Ribbon.RibbonTab();
+            this.ribbonGroup9 = new C1.Win.Ribbon.RibbonGroup();
+            this.btnAyAcercaDe = new C1.Win.Ribbon.RibbonButton();
+            this.ribbonGroup10 = new C1.Win.Ribbon.RibbonGroup();
+            this.btnAyManualUsuario = new C1.Win.Ribbon.RibbonButton();
+            this.ribbonGroup11 = new C1.Win.Ribbon.RibbonGroup();
+            this.btnAdEmpleado = new C1.Win.Ribbon.RibbonButton();
             ((System.ComponentModel.ISupportInitialize)(this.c1Ribbon1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,7 +80,9 @@
             this.c1Ribbon1.Size = new System.Drawing.Size(1482, 201);
             this.c1Ribbon1.Tabs.Add(this.ribbonTab1);
             this.c1Ribbon1.Tabs.Add(this.ribbonTab2);
+            this.c1Ribbon1.Tabs.Add(this.ribbonTab4);
             this.c1Ribbon1.Tabs.Add(this.ribbonTab3);
+            this.c1Ribbon1.Tabs.Add(this.ribbonTab5);
             this.c1Ribbon1.TopToolBarHolder = this.ribbonTopToolBar1;
             // 
             // ribbonApplicationMenu1
@@ -176,8 +190,42 @@
             this.btnCVVentas.Text = "Ventas";
             this.btnCVVentas.Click += new System.EventHandler(this.btnCVVentas_Click);
             // 
+            // ribbonTab4
+            // 
+            this.ribbonTab4.Groups.Add(this.ribbonGroup7);
+            this.ribbonTab4.Groups.Add(this.ribbonGroup8);
+            this.ribbonTab4.Name = "ribbonTab4";
+            this.ribbonTab4.Text = "Reportes";
+            // 
+            // ribbonGroup7
+            // 
+            this.ribbonGroup7.Items.Add(this.btnReRegistroVentas);
+            this.ribbonGroup7.Name = "ribbonGroup7";
+            // 
+            // btnReRegistroVentas
+            // 
+            this.btnReRegistroVentas.IconSet.Add(new C1.Framework.C1BitmapIcon("DefaultImage", new System.Drawing.Size(16, 16), System.Drawing.Color.Transparent, "DefaultImage", -1));
+            this.btnReRegistroVentas.IconSet.Add(new C1.Framework.C1BitmapIcon(null, new System.Drawing.Size(128, 128), System.Drawing.Color.Transparent, ((System.Drawing.Image)(resources.GetObject("btnReRegistroVentas.IconSet")))));
+            this.btnReRegistroVentas.Name = "btnReRegistroVentas";
+            this.btnReRegistroVentas.Text = "Registro de Ventas";
+            this.btnReRegistroVentas.Click += new System.EventHandler(this.btnReRegistroVentas_Click);
+            // 
+            // ribbonGroup8
+            // 
+            this.ribbonGroup8.Items.Add(this.btnReRegistroCompras);
+            this.ribbonGroup8.Name = "ribbonGroup8";
+            // 
+            // btnReRegistroCompras
+            // 
+            this.btnReRegistroCompras.IconSet.Add(new C1.Framework.C1BitmapIcon("DefaultImage", new System.Drawing.Size(16, 16), System.Drawing.Color.Transparent, "DefaultImage", -1));
+            this.btnReRegistroCompras.IconSet.Add(new C1.Framework.C1BitmapIcon(null, new System.Drawing.Size(128, 128), System.Drawing.Color.Transparent, ((System.Drawing.Image)(resources.GetObject("btnReRegistroCompras.IconSet")))));
+            this.btnReRegistroCompras.Name = "btnReRegistroCompras";
+            this.btnReRegistroCompras.Text = "Registro de Compras";
+            this.btnReRegistroCompras.Click += new System.EventHandler(this.btnReRegistroCompras_Click);
+            // 
             // ribbonTab3
             // 
+            this.ribbonTab3.Groups.Add(this.ribbonGroup11);
             this.ribbonTab3.Groups.Add(this.ribbonGroup6);
             this.ribbonTab3.Name = "ribbonTab3";
             this.ribbonTab3.Text = "Administración";
@@ -208,6 +256,50 @@
             this.pnlContenedor.Name = "pnlContenedor";
             this.pnlContenedor.Size = new System.Drawing.Size(1482, 852);
             this.pnlContenedor.TabIndex = 1;
+            // 
+            // ribbonTab5
+            // 
+            this.ribbonTab5.Groups.Add(this.ribbonGroup9);
+            this.ribbonTab5.Groups.Add(this.ribbonGroup10);
+            this.ribbonTab5.Name = "ribbonTab5";
+            this.ribbonTab5.Text = "Ayuda";
+            // 
+            // ribbonGroup9
+            // 
+            this.ribbonGroup9.Items.Add(this.btnAyAcercaDe);
+            this.ribbonGroup9.Name = "ribbonGroup9";
+            // 
+            // btnAyAcercaDe
+            // 
+            this.btnAyAcercaDe.IconSet.Add(new C1.Framework.C1BitmapIcon("DefaultImage", new System.Drawing.Size(16, 16), System.Drawing.Color.Transparent, "DefaultImage", -1));
+            this.btnAyAcercaDe.IconSet.Add(new C1.Framework.C1BitmapIcon(null, new System.Drawing.Size(128, 128), System.Drawing.Color.Transparent, ((System.Drawing.Image)(resources.GetObject("btnAyAcercaDe.IconSet")))));
+            this.btnAyAcercaDe.Name = "btnAyAcercaDe";
+            this.btnAyAcercaDe.Text = "Acerca De...";
+            // 
+            // ribbonGroup10
+            // 
+            this.ribbonGroup10.Items.Add(this.btnAyManualUsuario);
+            this.ribbonGroup10.Name = "ribbonGroup10";
+            // 
+            // btnAyManualUsuario
+            // 
+            this.btnAyManualUsuario.IconSet.Add(new C1.Framework.C1BitmapIcon("DefaultImage", new System.Drawing.Size(16, 16), System.Drawing.Color.Transparent, "DefaultImage", -1));
+            this.btnAyManualUsuario.IconSet.Add(new C1.Framework.C1BitmapIcon(null, new System.Drawing.Size(128, 128), System.Drawing.Color.Transparent, ((System.Drawing.Image)(resources.GetObject("btnAyManualUsuario.IconSet")))));
+            this.btnAyManualUsuario.Name = "btnAyManualUsuario";
+            this.btnAyManualUsuario.Text = "Manual de Usuario";
+            // 
+            // ribbonGroup11
+            // 
+            this.ribbonGroup11.Items.Add(this.btnAdEmpleado);
+            this.ribbonGroup11.Name = "ribbonGroup11";
+            // 
+            // btnAdEmpleado
+            // 
+            this.btnAdEmpleado.IconSet.Add(new C1.Framework.C1BitmapIcon("DefaultImage", new System.Drawing.Size(16, 16), System.Drawing.Color.Transparent, "DefaultImage", -1));
+            this.btnAdEmpleado.IconSet.Add(new C1.Framework.C1BitmapIcon(null, new System.Drawing.Size(128, 128), System.Drawing.Color.Transparent, ((System.Drawing.Image)(resources.GetObject("btnAdEmpleado.IconSet")))));
+            this.btnAdEmpleado.Name = "btnAdEmpleado";
+            this.btnAdEmpleado.Text = "Empleados";
+            this.btnAdEmpleado.Click += new System.EventHandler(this.btnAdEmpleado_Click);
             // 
             // FrmPrincipal
             // 
@@ -252,5 +344,17 @@
         private C1.Win.Ribbon.RibbonButton btnAdUsuario;
         private System.Windows.Forms.Panel pnlContenedor;
         private C1.Win.Ribbon.RibbonButton btnCaCategoria;
+        private C1.Win.Ribbon.RibbonTab ribbonTab4;
+        private C1.Win.Ribbon.RibbonGroup ribbonGroup7;
+        private C1.Win.Ribbon.RibbonButton btnReRegistroVentas;
+        private C1.Win.Ribbon.RibbonGroup ribbonGroup8;
+        private C1.Win.Ribbon.RibbonButton btnReRegistroCompras;
+        private C1.Win.Ribbon.RibbonTab ribbonTab5;
+        private C1.Win.Ribbon.RibbonGroup ribbonGroup9;
+        private C1.Win.Ribbon.RibbonButton btnAyAcercaDe;
+        private C1.Win.Ribbon.RibbonGroup ribbonGroup10;
+        private C1.Win.Ribbon.RibbonButton btnAyManualUsuario;
+        private C1.Win.Ribbon.RibbonGroup ribbonGroup11;
+        private C1.Win.Ribbon.RibbonButton btnAdEmpleado;
     }
 }

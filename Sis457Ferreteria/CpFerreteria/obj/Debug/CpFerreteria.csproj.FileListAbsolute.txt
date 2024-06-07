@@ -21,3 +21,9 @@ C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Debug\CpFerreteria
 C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Debug\CpFerreteria.FrmCliente.resources
 C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Debug\CpFerreteria.FrmCompra.resources
 C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Debug\CpFerreteria.FrmProveedor.resources
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Debug\CpFerreteria.FrmVenta.resources
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Debug\CpFerreteria.FrmBusquedaCliente.resources
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Debug\CpFerreteria.FrmBusquedaProducto.resources
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Debug\CpFerreteria.FrmEmpleado.resources
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Debug\CpFerreteria.FrmReporteCompra.resources
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Debug\CpFerreteria.FrmReporteVenta.resources
