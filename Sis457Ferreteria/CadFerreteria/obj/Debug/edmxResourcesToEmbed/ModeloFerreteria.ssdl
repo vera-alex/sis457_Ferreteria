@@ -73,9 +73,8 @@
     </Key>
     <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="codigo" Type="varchar" MaxLength="20" Nullable="false" />
-    <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
-    <Property Name="marca" Type="varchar" MaxLength="20" />
     <Property Name="descripcion" Type="varchar" MaxLength="250" Nullable="false" />
+    <Property Name="marca" Type="varchar" MaxLength="20" />
     <Property Name="unidadMedida" Type="varchar" MaxLength="20" Nullable="false" />
     <Property Name="precioVenta" Type="decimal" Precision="18" Scale="0" Nullable="false" />
     <Property Name="stock" Type="int" Nullable="false" />

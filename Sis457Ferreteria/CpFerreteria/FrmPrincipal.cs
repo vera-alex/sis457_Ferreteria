@@ -26,7 +26,7 @@ namespace CpFerreteria
 
         private void configurarMenu(string cargo)
         {
-            if (cargo == "Cajero")
+            if (cargo == "CAJERO")
             {
                 rbtReporte.Visible = false;
                 rbtAdministracion.Visible = false;

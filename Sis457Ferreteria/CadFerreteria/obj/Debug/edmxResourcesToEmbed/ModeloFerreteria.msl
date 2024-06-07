@@ -78,9 +78,8 @@
         <MappingFragment StoreEntitySet="Producto">
           <ScalarProperty Name="id" ColumnName="id" />
           <ScalarProperty Name="codigo" ColumnName="codigo" />
-          <ScalarProperty Name="nombre" ColumnName="nombre" />
-          <ScalarProperty Name="marca" ColumnName="marca" />
           <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="marca" ColumnName="marca" />
           <ScalarProperty Name="unidadMedida" ColumnName="unidadMedida" />
           <ScalarProperty Name="precioVenta" ColumnName="precioVenta" />
           <ScalarProperty Name="stock" ColumnName="stock" />
@@ -154,9 +153,8 @@
         <ComplexTypeMapping TypeName="LabFerreteriaModel.paProductoListar_Result">
           <ScalarProperty Name="id" ColumnName="id" />
           <ScalarProperty Name="codigo" ColumnName="codigo" />
-          <ScalarProperty Name="nombre" ColumnName="nombre" />
-          <ScalarProperty Name="marca" ColumnName="marca" />
           <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="marca" ColumnName="marca" />
           <ScalarProperty Name="unidadMedida" ColumnName="unidadMedida" />
           <ScalarProperty Name="precioVenta" ColumnName="precioVenta" />
           <ScalarProperty Name="stock" ColumnName="stock" />
