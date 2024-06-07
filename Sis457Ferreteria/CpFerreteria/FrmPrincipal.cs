@@ -13,6 +13,8 @@ namespace CpFerreteria
 {
     public partial class FrmPrincipal : Form
     {
+        private static Form formularioActual = null;
+
         public FrmPrincipal()
         {
             InitializeComponent();
@@ -20,6 +22,11 @@ namespace CpFerreteria
 
         private void abrirFormulario(Form formulario)
         {
+            if (formularioActual != null)
+            {
+                formularioActual.Close();
+            }
+            formularioActual = formulario;
             formulario.TopLevel = false;
             formulario.FormBorderStyle = FormBorderStyle.None;
             formulario.Dock = DockStyle.Fill;
@@ -35,6 +42,26 @@ namespace CpFerreteria
         private void btnAdUsuario_Click(object sender, EventArgs e)
         {
             abrirFormulario(new FrmUsuario());
+        }
+
+        private void btnCaCategoria_Click(object sender, EventArgs e)
+        {
+            abrirFormulario(new FrmCategoria());
+        }
+
+        private void btnCaProveedor_Click(object sender, EventArgs e)
+        {
+            abrirFormulario(new FrmProveedor());
+        }
+
+        private void btnCaCliente_Click(object sender, EventArgs e)
+        {
+            abrirFormulario(new FrmCliente());
+        }
+
+        private void btnCVCompras_Click(object sender, EventArgs e)
+        {
+            abrirFormulario(new FrmCompra());
         }
     }
 }

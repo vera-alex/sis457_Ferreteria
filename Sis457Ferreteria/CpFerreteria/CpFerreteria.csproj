@@ -56,6 +56,24 @@
     <Compile Include="FrmAutenticacion.Designer.cs">
       <DependentUpon>FrmAutenticacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCategoria.Designer.cs">
+      <DependentUpon>FrmCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCliente.Designer.cs">
+      <DependentUpon>FrmCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCompra.Designer.cs">
+      <DependentUpon>FrmCompra.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +86,12 @@
     <Compile Include="FrmProducto.Designer.cs">
       <DependentUpon>FrmProducto.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProveedor.Designer.cs">
+      <DependentUpon>FrmProveedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,11 +103,23 @@
     <EmbeddedResource Include="FrmAutenticacion.resx">
       <DependentUpon>FrmAutenticacion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmCategoria.resx">
+      <DependentUpon>FrmCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCliente.resx">
+      <DependentUpon>FrmCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCompra.resx">
+      <DependentUpon>FrmCompra.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmProducto.resx">
       <DependentUpon>FrmProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProveedor.resx">
+      <DependentUpon>FrmProveedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmUsuario.resx">
       <DependentUpon>FrmUsuario.cs</DependentUpon>
@@ -171,6 +207,60 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\personas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\format_list_bulleted_20dp_FILL0_wght400_GRAD0_opsz20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar-simbolo-optico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar-producto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar-simbolo-optico1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\format_list_bulleted_20dp_FILL0_wght400_GRAD0_opsz201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\personas1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disco-flexible1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_20dp_FILL0_wght400_GRAD0_opsz201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account_circle_40dp_FILL0_wght400_GRAD0_opsz40 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account_circle_40dp_FILL0_wght400_GRAD0_opsz401.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\herramientas-panorama-fondo-verd1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nombres-originales-y-creativos-para-Ferreterias1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar-producto1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar-producto %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\etiquetado.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
