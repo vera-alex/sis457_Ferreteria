@@ -14,11 +14,23 @@ namespace CpFerreteria
     {
         private static Form formularioActual = null;
         FrmAutenticacion frmAutenticacion;
+        private string cargo;
 
-        public FrmPrincipal(FrmAutenticacion frmAutenticacion)
+        public FrmPrincipal(FrmAutenticacion frmAutenticacion, string cargo)
         {
             InitializeComponent();
             this.frmAutenticacion = frmAutenticacion;
+            this.cargo = cargo;
+            configurarMenu(cargo);
+        }
+
+        private void configurarMenu(string cargo)
+        {
+            if (cargo == "Cajero")
+            {
+                rbtReporte.Visible = false;
+                rbtAdministracion.Visible = false;
+            }
         }
 
         private void abrirFormulario(Form formulario)

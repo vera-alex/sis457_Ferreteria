@@ -54,7 +54,7 @@ namespace CpFerreteria
                     txtUsuario.Focus();
                     txtUsuario.SelectAll();
                     Visible = false;
-                    new FrmPrincipal(this).ShowDialog();
+                    new FrmPrincipal(this, usuario.Cargo).ShowDialog();
                 }
                 else
                 {

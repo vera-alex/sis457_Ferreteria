@@ -34,7 +34,7 @@
             this.ribbonBottomToolBar1 = new C1.Win.Ribbon.RibbonBottomToolBar();
             this.ribbonConfigToolBar1 = new C1.Win.Ribbon.RibbonConfigToolBar();
             this.ribbonQat1 = new C1.Win.Ribbon.RibbonQat();
-            this.ribbonTab1 = new C1.Win.Ribbon.RibbonTab();
+            this.rbtCatalogos = new C1.Win.Ribbon.RibbonTab();
             this.ribbonGroup1 = new C1.Win.Ribbon.RibbonGroup();
             this.btnCaCategoria = new C1.Win.Ribbon.RibbonButton();
             this.btnCaProductos = new C1.Win.Ribbon.RibbonButton();
@@ -42,22 +42,22 @@
             this.btnCaProveedor = new C1.Win.Ribbon.RibbonButton();
             this.ribbonGroup3 = new C1.Win.Ribbon.RibbonGroup();
             this.btnCaCliente = new C1.Win.Ribbon.RibbonButton();
-            this.ribbonTab2 = new C1.Win.Ribbon.RibbonTab();
+            this.rbtComprasVentas = new C1.Win.Ribbon.RibbonTab();
             this.ribbonGroup4 = new C1.Win.Ribbon.RibbonGroup();
             this.btnCVCompras = new C1.Win.Ribbon.RibbonButton();
             this.ribbonGroup5 = new C1.Win.Ribbon.RibbonGroup();
             this.btnCVVentas = new C1.Win.Ribbon.RibbonButton();
-            this.ribbonTab4 = new C1.Win.Ribbon.RibbonTab();
+            this.rbtReporte = new C1.Win.Ribbon.RibbonTab();
             this.ribbonGroup7 = new C1.Win.Ribbon.RibbonGroup();
             this.btnReRegistroVentas = new C1.Win.Ribbon.RibbonButton();
             this.ribbonGroup8 = new C1.Win.Ribbon.RibbonGroup();
             this.btnReRegistroCompras = new C1.Win.Ribbon.RibbonButton();
-            this.ribbonTab3 = new C1.Win.Ribbon.RibbonTab();
+            this.rbtAdministracion = new C1.Win.Ribbon.RibbonTab();
             this.ribbonGroup11 = new C1.Win.Ribbon.RibbonGroup();
             this.btnAdEmpleado = new C1.Win.Ribbon.RibbonButton();
             this.ribbonGroup6 = new C1.Win.Ribbon.RibbonGroup();
             this.btnAdUsuario = new C1.Win.Ribbon.RibbonButton();
-            this.ribbonTab5 = new C1.Win.Ribbon.RibbonTab();
+            this.rbtAyuda = new C1.Win.Ribbon.RibbonTab();
             this.ribbonGroup9 = new C1.Win.Ribbon.RibbonGroup();
             this.btnAyAcercaDe = new C1.Win.Ribbon.RibbonButton();
             this.ribbonGroup10 = new C1.Win.Ribbon.RibbonGroup();
@@ -78,11 +78,11 @@
             this.c1Ribbon1.Name = "c1Ribbon1";
             this.c1Ribbon1.QatHolder = this.ribbonQat1;
             this.c1Ribbon1.Size = new System.Drawing.Size(1482, 201);
-            this.c1Ribbon1.Tabs.Add(this.ribbonTab1);
-            this.c1Ribbon1.Tabs.Add(this.ribbonTab2);
-            this.c1Ribbon1.Tabs.Add(this.ribbonTab4);
-            this.c1Ribbon1.Tabs.Add(this.ribbonTab3);
-            this.c1Ribbon1.Tabs.Add(this.ribbonTab5);
+            this.c1Ribbon1.Tabs.Add(this.rbtCatalogos);
+            this.c1Ribbon1.Tabs.Add(this.rbtComprasVentas);
+            this.c1Ribbon1.Tabs.Add(this.rbtReporte);
+            this.c1Ribbon1.Tabs.Add(this.rbtAdministracion);
+            this.c1Ribbon1.Tabs.Add(this.rbtAyuda);
             this.c1Ribbon1.TopToolBarHolder = this.ribbonTopToolBar1;
             // 
             // ribbonApplicationMenu1
@@ -101,13 +101,13 @@
             // 
             this.ribbonQat1.Name = "ribbonQat1";
             // 
-            // ribbonTab1
+            // rbtCatalogos
             // 
-            this.ribbonTab1.Groups.Add(this.ribbonGroup1);
-            this.ribbonTab1.Groups.Add(this.ribbonGroup2);
-            this.ribbonTab1.Groups.Add(this.ribbonGroup3);
-            this.ribbonTab1.Name = "ribbonTab1";
-            this.ribbonTab1.Text = "Catálogos";
+            this.rbtCatalogos.Groups.Add(this.ribbonGroup1);
+            this.rbtCatalogos.Groups.Add(this.ribbonGroup2);
+            this.rbtCatalogos.Groups.Add(this.ribbonGroup3);
+            this.rbtCatalogos.Name = "rbtCatalogos";
+            this.rbtCatalogos.Text = "Catálogos";
             // 
             // ribbonGroup1
             // 
@@ -157,12 +157,12 @@
             this.btnCaCliente.Text = "Clientes";
             this.btnCaCliente.Click += new System.EventHandler(this.btnCaCliente_Click);
             // 
-            // ribbonTab2
+            // rbtComprasVentas
             // 
-            this.ribbonTab2.Groups.Add(this.ribbonGroup4);
-            this.ribbonTab2.Groups.Add(this.ribbonGroup5);
-            this.ribbonTab2.Name = "ribbonTab2";
-            this.ribbonTab2.Text = "Compras/Ventas";
+            this.rbtComprasVentas.Groups.Add(this.ribbonGroup4);
+            this.rbtComprasVentas.Groups.Add(this.ribbonGroup5);
+            this.rbtComprasVentas.Name = "rbtComprasVentas";
+            this.rbtComprasVentas.Text = "Compras/Ventas";
             // 
             // ribbonGroup4
             // 
@@ -190,12 +190,12 @@
             this.btnCVVentas.Text = "Ventas";
             this.btnCVVentas.Click += new System.EventHandler(this.btnCVVentas_Click);
             // 
-            // ribbonTab4
+            // rbtReporte
             // 
-            this.ribbonTab4.Groups.Add(this.ribbonGroup7);
-            this.ribbonTab4.Groups.Add(this.ribbonGroup8);
-            this.ribbonTab4.Name = "ribbonTab4";
-            this.ribbonTab4.Text = "Reportes";
+            this.rbtReporte.Groups.Add(this.ribbonGroup7);
+            this.rbtReporte.Groups.Add(this.ribbonGroup8);
+            this.rbtReporte.Name = "rbtReporte";
+            this.rbtReporte.Text = "Reportes";
             // 
             // ribbonGroup7
             // 
@@ -223,12 +223,12 @@
             this.btnReRegistroCompras.Text = "Registro de Compras";
             this.btnReRegistroCompras.Click += new System.EventHandler(this.btnReRegistroCompras_Click);
             // 
-            // ribbonTab3
+            // rbtAdministracion
             // 
-            this.ribbonTab3.Groups.Add(this.ribbonGroup11);
-            this.ribbonTab3.Groups.Add(this.ribbonGroup6);
-            this.ribbonTab3.Name = "ribbonTab3";
-            this.ribbonTab3.Text = "Administración";
+            this.rbtAdministracion.Groups.Add(this.ribbonGroup11);
+            this.rbtAdministracion.Groups.Add(this.ribbonGroup6);
+            this.rbtAdministracion.Name = "rbtAdministracion";
+            this.rbtAdministracion.Text = "Administración";
             // 
             // ribbonGroup11
             // 
@@ -256,12 +256,12 @@
             this.btnAdUsuario.Text = "Usuarios";
             this.btnAdUsuario.Click += new System.EventHandler(this.btnAdUsuario_Click);
             // 
-            // ribbonTab5
+            // rbtAyuda
             // 
-            this.ribbonTab5.Groups.Add(this.ribbonGroup9);
-            this.ribbonTab5.Groups.Add(this.ribbonGroup10);
-            this.ribbonTab5.Name = "ribbonTab5";
-            this.ribbonTab5.Text = "Ayuda";
+            this.rbtAyuda.Groups.Add(this.ribbonGroup9);
+            this.rbtAyuda.Groups.Add(this.ribbonGroup10);
+            this.rbtAyuda.Name = "rbtAyuda";
+            this.rbtAyuda.Text = "Ayuda";
             // 
             // ribbonGroup9
             // 
@@ -327,7 +327,7 @@
         private C1.Win.Ribbon.RibbonBottomToolBar ribbonBottomToolBar1;
         private C1.Win.Ribbon.RibbonConfigToolBar ribbonConfigToolBar1;
         private C1.Win.Ribbon.RibbonQat ribbonQat1;
-        private C1.Win.Ribbon.RibbonTab ribbonTab1;
+        private C1.Win.Ribbon.RibbonTab rbtCatalogos;
         private C1.Win.Ribbon.RibbonGroup ribbonGroup1;
         private C1.Win.Ribbon.RibbonButton btnCaProductos;
         private C1.Win.Ribbon.RibbonTopToolBar ribbonTopToolBar1;
@@ -335,22 +335,22 @@
         private C1.Win.Ribbon.RibbonButton btnCaProveedor;
         private C1.Win.Ribbon.RibbonGroup ribbonGroup3;
         private C1.Win.Ribbon.RibbonButton btnCaCliente;
-        private C1.Win.Ribbon.RibbonTab ribbonTab2;
+        private C1.Win.Ribbon.RibbonTab rbtComprasVentas;
         private C1.Win.Ribbon.RibbonGroup ribbonGroup4;
         private C1.Win.Ribbon.RibbonButton btnCVCompras;
         private C1.Win.Ribbon.RibbonGroup ribbonGroup5;
         private C1.Win.Ribbon.RibbonButton btnCVVentas;
-        private C1.Win.Ribbon.RibbonTab ribbonTab3;
+        private C1.Win.Ribbon.RibbonTab rbtAdministracion;
         private C1.Win.Ribbon.RibbonGroup ribbonGroup6;
         private C1.Win.Ribbon.RibbonButton btnAdUsuario;
         private System.Windows.Forms.Panel pnlContenedor;
         private C1.Win.Ribbon.RibbonButton btnCaCategoria;
-        private C1.Win.Ribbon.RibbonTab ribbonTab4;
+        private C1.Win.Ribbon.RibbonTab rbtReporte;
         private C1.Win.Ribbon.RibbonGroup ribbonGroup7;
         private C1.Win.Ribbon.RibbonButton btnReRegistroVentas;
         private C1.Win.Ribbon.RibbonGroup ribbonGroup8;
         private C1.Win.Ribbon.RibbonButton btnReRegistroCompras;
-        private C1.Win.Ribbon.RibbonTab ribbonTab5;
+        private C1.Win.Ribbon.RibbonTab rbtAyuda;
         private C1.Win.Ribbon.RibbonGroup ribbonGroup9;
         private C1.Win.Ribbon.RibbonButton btnAyAcercaDe;
         private C1.Win.Ribbon.RibbonGroup ribbonGroup10;
