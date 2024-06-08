@@ -1,0 +1,12 @@
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CadFerreteria\bin\Release\CadFerreteria.dll.config
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CadFerreteria\bin\Release\CadFerreteria.dll
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CadFerreteria\bin\Release\CadFerreteria.pdb
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CadFerreteria\bin\Release\EntityFramework.dll
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CadFerreteria\bin\Release\EntityFramework.SqlServer.dll
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CadFerreteria\bin\Release\EntityFramework.xml
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CadFerreteria\bin\Release\EntityFramework.SqlServer.xml
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CadFerreteria\obj\Release\CadFerreteria.csproj.AssemblyReference.cache
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CadFerreteria\obj\Release\CadFerreteria.csproj.CoreCompileInputs.cache
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CadFerreteria\obj\Release\CadFerre.55DC7512.Up2Date
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CadFerreteria\obj\Release\CadFerreteria.dll
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CadFerreteria\obj\Release\CadFerreteria.pdb

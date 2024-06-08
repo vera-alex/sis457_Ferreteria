@@ -8,7 +8,7 @@
     <ProjectGuid>{7C3E7FE3-EFE1-489C-912E-19CA1ECE27A8}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>CpFerreteria</RootNamespace>
-    <AssemblyName>CpFerreteria</AssemblyName>
+    <AssemblyName>Todo en Uno</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,6 +34,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="C1.Win.4.5.2, Version=4.5.20193.393, Culture=neutral, PublicKeyToken=944ae1ea0e47ca04" />
@@ -352,6 +355,9 @@
       <Project>{cdf38242-f7ea-4644-b9d6-10c9606a875e}</Project>
       <Name>ClnFerreteria</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

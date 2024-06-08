@@ -1,0 +1,39 @@
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Release\Todo en Uno.exe.config
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Release\Todo en Uno.exe
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Release\Todo en Uno.pdb
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Release\C1.Win.4.5.2.dll
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Release\C1.Win.Ribbon.4.5.2.dll
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Release\CadFerreteria.dll
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Release\ClnFerreteria.dll
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Release\EntityFramework.dll
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Release\EntityFramework.SqlServer.dll
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Release\CadFerreteria.pdb
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Release\CadFerreteria.dll.config
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Release\ClnFerreteria.pdb
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Release\ClnFerreteria.dll.config
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Release\C1.Win.4.5.2.xml
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Release\C1.Win.Ribbon.4.5.2.xml
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Release\EntityFramework.xml
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\bin\Release\EntityFramework.SqlServer.xml
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Release\CpFerreteria.csproj.AssemblyReference.cache
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Release\CpFerreteria.FrmAutenticacion.resources
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Release\CpFerreteria.FrmBusquedaCliente.resources
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Release\CpFerreteria.FrmBusquedaProducto.resources
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Release\CpFerreteria.FrmCategoria.resources
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Release\CpFerreteria.FrmCliente.resources
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Release\CpFerreteria.FrmCompra.resources
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Release\CpFerreteria.FrmEmpleado.resources
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Release\CpFerreteria.FrmPrincipal.resources
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Release\CpFerreteria.FrmProducto.resources
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Release\CpFerreteria.FrmProveedor.resources
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Release\CpFerreteria.FrmReporteCompra.resources
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Release\CpFerreteria.FrmReporteVenta.resources
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Release\CpFerreteria.FrmUsuario.resources
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Release\CpFerreteria.FrmVenta.resources
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Release\CpFerreteria.Properties.Resources.resources
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Release\CpFerreteria.csproj.GenerateResource.cache
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Release\Todo en Uno.exe.licenses
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Release\CpFerreteria.csproj.CoreCompileInputs.cache
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Release\CpFerret.A7FCED0A.Up2Date
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Release\Todo en Uno.exe
+C:\SIS457\sis457_Ferreteria\Sis457Ferreteria\CpFerreteria\obj\Release\Todo en Uno.pdb
