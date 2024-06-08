@@ -30,6 +30,7 @@
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmBusquedaProducto));
             this.txtParametro = new System.Windows.Forms.TextBox();
             this.lblParametro = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -131,9 +132,10 @@
             this.Controls.Add(this.txtParametro);
             this.Controls.Add(this.lblParametro);
             this.Controls.Add(this.label7);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmBusquedaProducto";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmBusquedaProducto";
+            this.Text = "::: Todo en Uno - Buscar Producto :::";
             this.Load += new System.EventHandler(this.FrmBusquedaProducto_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaProducto)).EndInit();
             this.ResumeLayout(false);
