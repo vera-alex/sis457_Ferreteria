@@ -37,8 +37,15 @@
             this.lblTotal = new System.Windows.Forms.Label();
             this.btnAgregarProducto = new System.Windows.Forms.Button();
             this.dgvListaDetalle = new System.Windows.Forms.DataGridView();
+            this.idProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombreProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.precioUnitario = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.subtotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnEliminar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.nudCantidad = new System.Windows.Forms.NumericUpDown();
             this.gbxInformacionProducto = new System.Windows.Forms.GroupBox();
+            this.txtIdProducto = new System.Windows.Forms.TextBox();
             this.txtStock = new System.Windows.Forms.TextBox();
             this.txtPrecio = new System.Windows.Forms.TextBox();
             this.lblStock = new System.Windows.Forms.Label();
@@ -63,13 +70,6 @@
             this.nudPago = new System.Windows.Forms.NumericUpDown();
             this.nudCambio = new System.Windows.Forms.NumericUpDown();
             this.lblCambio = new System.Windows.Forms.Label();
-            this.txtIdProducto = new System.Windows.Forms.TextBox();
-            this.idProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nombreProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.precioUnitario = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.subtotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnEliminar = new System.Windows.Forms.DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaDetalle)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).BeginInit();
             this.gbxInformacionProducto.SuspendLayout();
@@ -91,6 +91,7 @@
             this.btnBuscarCliente.Size = new System.Drawing.Size(46, 39);
             this.btnBuscarCliente.TabIndex = 18;
             this.btnBuscarCliente.UseVisualStyleBackColor = true;
+            this.btnBuscarCliente.Click += new System.EventHandler(this.btnBuscarCliente_Click);
             // 
             // btnRegistrar
             // 
@@ -182,6 +183,62 @@
             this.dgvListaDetalle.TabIndex = 31;
             this.dgvListaDetalle.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListaDetalle_CellContentClick);
             // 
+            // idProducto
+            // 
+            this.idProducto.HeaderText = "idProducto";
+            this.idProducto.MinimumWidth = 6;
+            this.idProducto.Name = "idProducto";
+            this.idProducto.ReadOnly = true;
+            this.idProducto.Visible = false;
+            this.idProducto.Width = 125;
+            // 
+            // nombreProducto
+            // 
+            this.nombreProducto.HeaderText = "Producto";
+            this.nombreProducto.MinimumWidth = 6;
+            this.nombreProducto.Name = "nombreProducto";
+            this.nombreProducto.ReadOnly = true;
+            this.nombreProducto.Width = 125;
+            // 
+            // precioUnitario
+            // 
+            this.precioUnitario.HeaderText = "Precio Unidad";
+            this.precioUnitario.MinimumWidth = 6;
+            this.precioUnitario.Name = "precioUnitario";
+            this.precioUnitario.ReadOnly = true;
+            this.precioUnitario.Width = 125;
+            // 
+            // cantidad
+            // 
+            this.cantidad.HeaderText = "Cantidad";
+            this.cantidad.MinimumWidth = 6;
+            this.cantidad.Name = "cantidad";
+            this.cantidad.ReadOnly = true;
+            this.cantidad.Width = 125;
+            // 
+            // subtotal
+            // 
+            this.subtotal.HeaderText = "Sub Total";
+            this.subtotal.MinimumWidth = 6;
+            this.subtotal.Name = "subtotal";
+            this.subtotal.ReadOnly = true;
+            this.subtotal.Width = 125;
+            // 
+            // btnEliminar
+            // 
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Red;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            this.btnEliminar.DefaultCellStyle = dataGridViewCellStyle2;
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEliminar.HeaderText = "";
+            this.btnEliminar.MinimumWidth = 6;
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.ReadOnly = true;
+            this.btnEliminar.Text = "ELIMINAR";
+            this.btnEliminar.Width = 125;
+            // 
             // nudCantidad
             // 
             this.nudCantidad.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -228,6 +285,14 @@
             this.gbxInformacionProducto.TabIndex = 30;
             this.gbxInformacionProducto.TabStop = false;
             this.gbxInformacionProducto.Text = "Información Producto";
+            // 
+            // txtIdProducto
+            // 
+            this.txtIdProducto.Location = new System.Drawing.Point(431, 19);
+            this.txtIdProducto.Name = "txtIdProducto";
+            this.txtIdProducto.Size = new System.Drawing.Size(53, 28);
+            this.txtIdProducto.TabIndex = 31;
+            this.txtIdProducto.Visible = false;
             // 
             // txtStock
             // 
@@ -503,70 +568,6 @@
             this.lblCambio.Size = new System.Drawing.Size(76, 22);
             this.lblCambio.TabIndex = 38;
             this.lblCambio.Text = "Cambio:";
-            // 
-            // txtIdProducto
-            // 
-            this.txtIdProducto.Location = new System.Drawing.Point(431, 19);
-            this.txtIdProducto.Name = "txtIdProducto";
-            this.txtIdProducto.Size = new System.Drawing.Size(53, 28);
-            this.txtIdProducto.TabIndex = 31;
-            this.txtIdProducto.Visible = false;
-            // 
-            // idProducto
-            // 
-            this.idProducto.HeaderText = "idProducto";
-            this.idProducto.MinimumWidth = 6;
-            this.idProducto.Name = "idProducto";
-            this.idProducto.ReadOnly = true;
-            this.idProducto.Visible = false;
-            this.idProducto.Width = 125;
-            // 
-            // nombreProducto
-            // 
-            this.nombreProducto.HeaderText = "Producto";
-            this.nombreProducto.MinimumWidth = 6;
-            this.nombreProducto.Name = "nombreProducto";
-            this.nombreProducto.ReadOnly = true;
-            this.nombreProducto.Width = 125;
-            // 
-            // precioUnitario
-            // 
-            this.precioUnitario.HeaderText = "Precio Unidad";
-            this.precioUnitario.MinimumWidth = 6;
-            this.precioUnitario.Name = "precioUnitario";
-            this.precioUnitario.ReadOnly = true;
-            this.precioUnitario.Width = 125;
-            // 
-            // cantidad
-            // 
-            this.cantidad.HeaderText = "Cantidad";
-            this.cantidad.MinimumWidth = 6;
-            this.cantidad.Name = "cantidad";
-            this.cantidad.ReadOnly = true;
-            this.cantidad.Width = 125;
-            // 
-            // subtotal
-            // 
-            this.subtotal.HeaderText = "Sub Total";
-            this.subtotal.MinimumWidth = 6;
-            this.subtotal.Name = "subtotal";
-            this.subtotal.ReadOnly = true;
-            this.subtotal.Width = 125;
-            // 
-            // btnEliminar
-            // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Red;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            this.btnEliminar.DefaultCellStyle = dataGridViewCellStyle2;
-            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEliminar.HeaderText = "";
-            this.btnEliminar.MinimumWidth = 6;
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.ReadOnly = true;
-            this.btnEliminar.Text = "ELIMINAR";
-            this.btnEliminar.Width = 125;
             // 
             // FrmVenta
             // 
