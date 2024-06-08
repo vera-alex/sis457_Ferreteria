@@ -9,7 +9,7 @@
 
 ## Descripción
 
-Ferretería "Todo en Uno" fue fundada en 2015, ubicada en la Av. Hernando Siles #818 .Comenzó como una pequeña tienda en el corazón de Ciudad del Este, con una modesta selección de herramientas básicas y suministros para la construcción.
+Ferretería "Todo en Uno" fue fundada en 2015, ubicada en la Av. Hernando Siles #818 .Comenzó como una pequeña tienda, con una modesta selección de herramientas básicas y suministros para la construcción.
 
 A lo largo de los años, la ferretería ha experimentado un crecimiento constante, expandiendo su inventario y atrayendo a una clientela fiel gracias a su compromiso con la calidad y el servicio al cliente. Hoy en día, es una de las principales tiendas de suministros de construcción en la región, conocida por su amplia selección de productos y su personal experto.
 
@@ -22,21 +22,23 @@ Para el inventario, se lleva un registro manual de los productos entrantes y sal
 ## Entidades
 
 ```bash
-Persona(id, nombres, paterno, materno, direccion, telefono)
+Empleado(id, cedulaIdentidad, nombres, primerApellido, segundoApellido, direccion, celular, cargo)
 
-Empleados(id, ci, fecha_contratacion, id_persona)
+Cliente(id, cedulaIdentidad, nombres, primerApellido, segundoApellido, celular)
 
-Clientes(id, id_persona)
+Proveedores(id, nit, razonSocial, direccion, telefono)
 
-Usuario(id, usuario, clave, email, rol, id_empleado)
+Usuario(id, usuario, clave, id_empleado)
 
-Proveedores(id, nombre, direccion, telefono, correo_electronico)
+Categoria(id, nombre)
 
-Categoria(id, nombre, descripcion)
+Productos (id, codigo, descripcion, marca, unidadMedida, precioVenta, stock, id_categoria)
 
-Productos (id, nombre, marca, descripcion, tipo_unidad, precio, stock, id_proveedor, id_categoria)
+Compra(id, idUsuario, idProveedor, total, fecha)
 
-Venta(id, fecha_venta, hora_venta, total_venta, id_usuario, id_cliente, id_detalle_venta)
+CompraDetalle(id, idCompra, idProducto, cantidad, precioUnitario, subtotal)
 
-Detalle_Venta(id, cantidad, precio, subtotal, id_venta, id_producto)
+Venta(id, idUsuario, idCliente, total, montoPago, montoCambio, fecha)
+
+Detalle_Venta(id, idVenta, idProducto, nombreProducto, precioUnitario, cantidad, subtotal)
 ```
