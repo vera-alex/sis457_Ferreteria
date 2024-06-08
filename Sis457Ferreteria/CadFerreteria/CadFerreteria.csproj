@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8AC48947-0AF7-4DC8-AD62-F76A7620CDD8}</ProjectGuid>
+    <ProjectGuid>{E35F4F69-FCAC-4700-9432-0F594E6120CC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CadFerreteria</RootNamespace>

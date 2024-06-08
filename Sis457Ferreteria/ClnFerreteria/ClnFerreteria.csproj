@@ -61,7 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CadFerreteria\CadFerreteria.csproj">
-      <Project>{8ac48947-0af7-4dc8-ad62-f76a7620cdd8}</Project>
+      <Project>{e35f4f69-fcac-4700-9432-0f594e6120cc}</Project>
       <Name>CadFerreteria</Name>
     </ProjectReference>
   </ItemGroup>

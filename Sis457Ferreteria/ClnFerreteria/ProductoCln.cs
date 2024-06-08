@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ClnFerreteria
 {
-    internal class ProductoCln
+    public class ProductoCln
     {
         public static int insertar(Producto producto)
         {
@@ -30,6 +30,7 @@ namespace ClnFerreteria
                 existente.unidadMedida = producto.unidadMedida;
                 existente.precioVenta = producto.precioVenta;
                 existente.stock = producto.stock;
+                existente.idCategoria = producto.idCategoria;
                 existente.usuarioRegistro = producto.usuarioRegistro;
                 return context.SaveChanges();
             }
