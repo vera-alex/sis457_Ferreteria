@@ -21,7 +21,7 @@ namespace WebFerreteria.Controllers
         // GET: Categorias
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Categoria.ToListAsync());
+            return View(await _context.Categoria.Where(x => x.Estado != -1).ToListAsync());
         }
 
         // GET: Categorias/Details/5
@@ -55,8 +55,11 @@ namespace WebFerreteria.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nombre,UsuarioRegistro,FechaRegistro,Estado")] Categorium categorium)
         {
-            if (ModelState.IsValid)
+            if (!string.IsNullOrEmpty(categorium.Nombre))
             {
+                categorium.UsuarioRegistro = User.Identity.Name;
+                categorium.FechaRegistro = DateTime.Now;
+                categorium.Estado = 1;
                 _context.Add(categorium);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -96,6 +99,7 @@ namespace WebFerreteria.Controllers
             {
                 try
                 {
+                    categorium.UsuarioRegistro = User.Identity.Name;
                     _context.Update(categorium);
                     await _context.SaveChangesAsync();
                 }
@@ -141,10 +145,12 @@ namespace WebFerreteria.Controllers
             var categorium = await _context.Categoria.FindAsync(id);
             if (categorium != null)
             {
-                _context.Categoria.Remove(categorium);
+                categorium.Estado = -1;
+                categorium.UsuarioRegistro = User.Identity.Name;
+                await _context.SaveChangesAsync();
+                //_context.Categoria.Remove(categorium);
             }
 
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
