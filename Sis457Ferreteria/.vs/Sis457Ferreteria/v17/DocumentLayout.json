@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|c:\\sis457\\sis457_ferreteria\\sis457ferreteria\\webferreteria\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|solutionrelative:webferreteria\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|c:\\sis457\\sis457_ferreteria\\sis457ferreteria\\webferreteria\\views\\productos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|solutionrelative:webferreteria\\views\\productos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\webferreteria\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|solutionrelative:webferreteria\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\webferreteria\\views\\shared\\_logoutpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|solutionrelative:webferreteria\\views\\shared\\_logoutpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|c:\\sis457\\sis457_ferreteria\\sis457ferreteria\\webferreteria\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|solutionrelative:webferreteria\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|c:\\sis457\\sis457_ferreteria\\sis457ferreteria\\webferreteria\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|solutionrelative:webferreteria\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|c:\\sis457\\sis457_ferreteria\\sis457ferreteria\\webferreteria\\views\\productos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|solutionrelative:webferreteria\\views\\productos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|c:\\sis457\\sis457_ferreteria\\sis457ferreteria\\webferreteria\\views\\productos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|solutionrelative:webferreteria\\views\\productos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|c:\\sis457\\sis457_ferreteria\\sis457ferreteria\\webferreteria\\views\\productos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|solutionrelative:webferreteria\\views\\productos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|c:\\sis457\\sis457_ferreteria\\sis457ferreteria\\webferreteria\\views\\productos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|solutionrelative:webferreteria\\views\\productos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|c:\\sis457\\sis457_ferreteria\\sis457ferreteria\\webferreteria\\views\\productos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|solutionrelative:webferreteria\\views\\productos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|c:\\sis457\\sis457_ferreteria\\sis457ferreteria\\webferreteria\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|solutionrelative:webferreteria\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|c:\\sis457\\sis457_ferreteria\\sis457ferreteria\\webferreteria\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|solutionrelative:webferreteria\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|c:\\sis457\\sis457_ferreteria\\sis457ferreteria\\webferreteria\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A6E3DD1-CE51-45C9-8DDD-93EBEACE2820}|WebFerreteria\\WebFerreteria.csproj|solutionrelative:webferreteria\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,106 +50,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Productos\\Create.cshtml",
-              "RelativeDocumentMoniker": "WebFerreteria\\Views\\Productos\\Create.cshtml",
-              "ToolTip": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Productos\\Create.cshtml",
-              "RelativeToolTip": "WebFerreteria\\Views\\Productos\\Create.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADkAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T04:42:00.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Productos\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebFerreteria\\Views\\Productos\\Index.cshtml",
-              "ToolTip": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Productos\\Index.cshtml",
-              "RelativeToolTip": "WebFerreteria\\Views\\Productos\\Index.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADUAAAARAAAA",
+              "DocumentMoniker": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebFerreteria\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebFerreteria\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHYAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T04:34:19.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Productos\\Details.cshtml",
-              "RelativeDocumentMoniker": "WebFerreteria\\Views\\Productos\\Details.cshtml",
-              "ToolTip": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Productos\\Details.cshtml",
-              "RelativeToolTip": "WebFerreteria\\Views\\Productos\\Details.cshtml",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAE0AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T04:32:52.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Productos\\Delete.cshtml",
-              "RelativeDocumentMoniker": "WebFerreteria\\Views\\Productos\\Delete.cshtml",
-              "ToolTip": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Productos\\Delete.cshtml",
-              "RelativeToolTip": "WebFerreteria\\Views\\Productos\\Delete.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T04:22:36.738Z",
+              "WhenOpened": "2024-06-24T13:57:54.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Productos\\Edit.cshtml",
-              "RelativeDocumentMoniker": "WebFerreteria\\Views\\Productos\\Edit.cshtml",
-              "ToolTip": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Productos\\Edit.cshtml",
-              "RelativeToolTip": "WebFerreteria\\Views\\Productos\\Edit.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACsAAAA+AAAA",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Productos\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebFerreteria\\Views\\Productos\\Create.cshtml",
+              "ToolTip": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Productos\\Create.cshtml",
+              "RelativeToolTip": "WebFerreteria\\Views\\Productos\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T03:51:18.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductosController.cs",
-              "DocumentMoniker": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Controllers\\ProductosController.cs",
-              "RelativeDocumentMoniker": "WebFerreteria\\Controllers\\ProductosController.cs",
-              "ToolTip": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Controllers\\ProductosController.cs",
-              "RelativeToolTip": "WebFerreteria\\Controllers\\ProductosController.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAkwDIAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T03:00:55.533Z",
+              "WhenOpened": "2024-06-24T13:24:07.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebFerreteria\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebFerreteria\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAgwCkAAAAhAAAA",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Productos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebFerreteria\\Views\\Productos\\Delete.cshtml",
+              "ToolTip": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Productos\\Delete.cshtml",
+              "RelativeToolTip": "WebFerreteria\\Views\\Productos\\Delete.cshtml",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAAFsAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T02:35:42.036Z",
+              "WhenOpened": "2024-06-24T13:23:23.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_LogoutPartial.cshtml",
-              "DocumentMoniker": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Shared\\_LogoutPartial.cshtml",
-              "RelativeDocumentMoniker": "WebFerreteria\\Views\\Shared\\_LogoutPartial.cshtml",
-              "ToolTip": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Shared\\_LogoutPartial.cshtml",
-              "RelativeToolTip": "WebFerreteria\\Views\\Shared\\_LogoutPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Productos\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebFerreteria\\Views\\Productos\\Details.cshtml",
+              "ToolTip": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Productos\\Details.cshtml",
+              "RelativeToolTip": "WebFerreteria\\Views\\Productos\\Details.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T02:31:51.751Z",
+              "WhenOpened": "2024-06-24T13:22:40.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Productos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebFerreteria\\Views\\Productos\\Edit.cshtml",
+              "ToolTip": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Productos\\Edit.cshtml",
+              "RelativeToolTip": "WebFerreteria\\Views\\Productos\\Edit.cshtml",
+              "ViewState": "AQIAADIAAAAAAAAAAAAUwEkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T13:21:55.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Productos\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebFerreteria\\Views\\Productos\\Index.cshtml",
+              "ToolTip": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Productos\\Index.cshtml",
+              "RelativeToolTip": "WebFerreteria\\Views\\Productos\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T13:20:10.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebFerreteria\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "WebFerreteria\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADEAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T13:16:09.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebFerreteria\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\SIS457\\sis457_Ferreteria\\Sis457Ferreteria\\WebFerreteria\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebFerreteria\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAUwF4AAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T05:52:09.588Z",
               "EditorCaption": ""
             }
           ]
