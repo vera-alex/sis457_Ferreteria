@@ -1,7 +1,7 @@
-﻿@model WebFerreteria.Models.Producto
+﻿@model WebFerreteria.Models.Empleado
 
 @{
-    ViewData["Title"] = "Eliminar Producto";
+    ViewData["Title"] = "Detalle Empleado";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -10,35 +10,39 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="row">
-                    <h1>Eliminar Producto</h1>
+                    <h1>Detalle de Empleado</h1>
 
-                    <h3>¿Está seguro que desea eliminar el Producto?</h3>
                     <div>
+                        <h4>Empleado</h4>
                         <hr />
                         <dl class="row">
-                            <dt class = "col-sm-2">Código</dt>
+                            <dt class = "col-sm-2">Cédula de Identidad</dt>
                             <dd class = "col-sm-10">
-                                @Html.DisplayFor(model => model.Codigo)
+                                @Html.DisplayFor(model => model.CedulaIdentidad)
                             </dd>
-                            <dt class = "col-sm-2">Descripción</dt>
+                            <dt class = "col-sm-2">Nombres</dt>
                             <dd class = "col-sm-10">
-                                @Html.DisplayFor(model => model.Descripcion)
+                                @Html.DisplayFor(model => model.Nombres)
                             </dd>
-                            <dt class = "col-sm-2">Marca</dt>
+                            <dt class = "col-sm-2">Primer Apellido</dt>
                             <dd class = "col-sm-10">
-                                @Html.DisplayFor(model => model.Marca)
+                                @Html.DisplayFor(model => model.PrimerApellido)
                             </dd>
-                            <dt class = "col-sm-2">Unidad de Medida</dt>
+                            <dt class = "col-sm-2">Segundo Apellido</dt>
                             <dd class = "col-sm-10">
-                                @Html.DisplayFor(model => model.UnidadMedida)
+                                @Html.DisplayFor(model => model.SegundoApellido)
                             </dd>
-                            <dt class = "col-sm-2">Precio Venta</dt>
+                            <dt class = "col-sm-2">Dirección</dt>
                             <dd class = "col-sm-10">
-                                @Html.DisplayFor(model => model.PrecioVenta)
+                                @Html.DisplayFor(model => model.Direccion)
                             </dd>
-                            <dt class = "col-sm-2">Stock</dt>
+                            <dt class = "col-sm-2">Celular</dt>
                             <dd class = "col-sm-10">
-                                @Html.DisplayFor(model => model.Stock)
+                                @Html.DisplayFor(model => model.Celular)
+                            </dd>
+                            <dt class = "col-sm-2">Cargo</dt>
+                            <dd class = "col-sm-10">
+                                @Html.DisplayFor(model => model.Cargo)
                             </dd>
                             <dt class = "col-sm-2">Usuario Registro</dt>
                             <dd class = "col-sm-10">
@@ -52,17 +56,11 @@
                             <dd class = "col-sm-10">
                                 @Html.DisplayFor(model => model.Estado)
                             </dd>
-                            <dt class = "col-sm-2">Categoría</dt>
-                            <dd class = "col-sm-10">
-                                @Html.DisplayFor(model => model.IdCategoriaNavigation.Nombre)
-                            </dd>
                         </dl>
-    
-                        <form asp-action="Delete">
-                            <input type="hidden" asp-for="Id" />
-                            <input type="submit" value="Eliminar" class="btn btn-danger" /> |
-                            <a asp-action="Index">Volver a la lista</a>
-                        </form>
+                    </div>
+                    <div>
+                        <a asp-action="Edit" asp-route-id="@Model?.Id">Editar</a> |
+                        <a asp-action="Index">Volver a la lista</a>
                     </div>
                 </div>
             </div>
