@@ -161,7 +161,6 @@ namespace CpFerreteria
                     int index = dgvLista.CurrentCell.RowIndex;
                     producto.id = Convert.ToInt32(dgvLista.Rows[index].Cells["id"].Value);
                     ProductoCln.actualizar(producto);
-                    esNuevo = true;
                 }
                 listar();
                 btnCancelar.PerformClick();
@@ -183,6 +182,7 @@ namespace CpFerreteria
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
+            esNuevo = true;
             int index = dgvLista.CurrentCell.RowIndex;
             int id = Convert.ToInt32(dgvLista.Rows[index].Cells["id"].Value);
             string codigo = dgvLista.Rows[index].Cells["codigo"].Value.ToString();
