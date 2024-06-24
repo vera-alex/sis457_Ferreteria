@@ -21,6 +21,46 @@
     <link rel="stylesheet" href="~/css/templatemo-digimedia-v3.css">
     <link rel="stylesheet" href="~/css/animated.css">
     <link rel="stylesheet" href="~/css/owl.css">
+
+    <style>
+        /* Estilos básicos para el menú */
+        .nav {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav li {
+            position: relative;
+        }
+
+        .nav a {
+            display: block;
+            padding: 15px;
+            color: white;
+        }
+
+        /* Estilos para el submenu */
+        .submenu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #f6f6f6;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            min-width: 200px;
+        }
+
+        .submenu li a {
+            padding: 15px;
+        }
+
+        .nav li:hover .submenu {
+            display: block;
+        }
+    </style>
 </head>
 <body>
     <!-- ***** Preloader Start ***** -->
@@ -74,23 +114,45 @@
                             @if (User.Identity.IsAuthenticated == true)
                             {
                                 <li class="scroll-to-section">
-                                    <a class="active" asp-area="" asp-controller="Categorias" asp-action="Index">Categorías</a>
-                                </li>
-                                <li class="scroll-to-section">
-                                    <a class="active" asp-area="" asp-controller="Productos" asp-action="Index">Productos</a>
-                                </li>
-                                <li class="scroll-to-section">
-                                    <a class="active" asp-area="" asp-controller="Proveedores" asp-action="Index">Proveedores</a>
+                                    <a style="color: #55aae8">Catálogos</a>
+                                    <ul class="submenu">
+                                        <li class="scroll-to-section dropdown-item">
+                                            <a asp-area="" asp-controller="Categorias" asp-action="Index">Categorías</a>
+                                        </li>
+                                        <li class="scroll-to-section dropdown-item">
+                                            <a asp-area="" asp-controller="Productos" asp-action="Index">Productos</a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="scroll-to-section">
                                     <a class="active" asp-area="" asp-controller="Clientes" asp-action="Index">Clientes</a>
                                 </li>
                                 <li class="scroll-to-section">
-                                    <a class="active" asp-area="" asp-controller="Empleados" asp-action="Index">Empleados</a>
+                                    <a class="active" asp-area="" asp-controller="Proveedores" asp-action="Index">Proveedores</a>
                                 </li>
                                 <li class="scroll-to-section">
-                                    <a class="active" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuarios</a>
+                                    <a style="color: #55aae8">Compra/Venta</a>
+                                    <ul class="submenu">
+                                        <li class="scroll-to-section dropdown-item">
+                                            <a class="active" asp-area="" asp-controller="Home" asp-action="Index">Compras</a>
+                                        </li>
+                                        <li class="scroll-to-section dropdown-item">
+                                            <a class="active" asp-area="" asp-controller="Home" asp-action="Index">Ventas</a>
+                                        </li>
+                                    </ul>
                                 </li>
+                                <li class="scroll-to-section">
+                                    <a style="color: #55aae8">Administración</a>
+                                    <ul class="submenu">
+                                        <li class="scroll-to-section dropdown-item">
+                                            <a class="active" asp-area="" asp-controller="Empleados" asp-action="Index">Empleados</a>
+                                        </li>
+                                        <li class="scroll-to-section dropdown-item">
+                                            <a class="active" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuarios</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                
                             }
                             @if (User.Identity.IsAuthenticated == false)
                             {
@@ -118,52 +180,6 @@
     </header>
     <!-- ***** Header Area End ***** -->
 
-    @* <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">WebFerreteria</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Inicio</a>
-                        </li>
-                        @if (User.Identity?.IsAuthenticated == false)
-                        {
-                            <li class="get-started"><a asp-controller="Account" asp-action="Login">Iniciar Sesión</a></li>
-                        }
-                        else
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Categorias" asp-action="Index">Categorías</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Productos" asp-action="Index">Productos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Proveedores" asp-action="Index">Proveedores</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Clientes" asp-action="Index">Clientes</a>
-                            </li>
-                            <li class="drop-down">
-                                <a href="">Hola @User.Identity?.Name</a>
-                                <ul>
-                                    <li>@await Html.PartialAsync("_LogoutPartial")</li>
-                                </ul>
-                            </li>
-                        }
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacidad</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header> *@
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
