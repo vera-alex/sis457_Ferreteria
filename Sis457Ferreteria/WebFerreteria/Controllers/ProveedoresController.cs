@@ -21,7 +21,7 @@ namespace WebFerreteria.Controllers
         // GET: Proveedores
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Proveedors.ToListAsync());
+            return View(await _context.Proveedors.Where(x => x.Estado != -1).ToListAsync());
         }
 
         // GET: Proveedores/Details/5
@@ -55,8 +55,11 @@ namespace WebFerreteria.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nit,RazonSocial,Direccion,Telefono,UsuarioRegistro,FechaRegistro,Estado")] Proveedor proveedor)
         {
-            if (ModelState.IsValid)
+            if (!string.IsNullOrEmpty(proveedor.RazonSocial))
             {
+                proveedor.UsuarioRegistro = User.Identity.Name;
+                proveedor.FechaRegistro = DateTime.Now;
+                proveedor.Estado = 1;
                 _context.Add(proveedor);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -96,6 +99,7 @@ namespace WebFerreteria.Controllers
             {
                 try
                 {
+                    proveedor.UsuarioRegistro = User.Identity.Name;
                     _context.Update(proveedor);
                     await _context.SaveChangesAsync();
                 }
@@ -141,10 +145,12 @@ namespace WebFerreteria.Controllers
             var proveedor = await _context.Proveedors.FindAsync(id);
             if (proveedor != null)
             {
-                _context.Proveedors.Remove(proveedor);
+                proveedor.Estado = -1;
+                proveedor.UsuarioRegistro = User.Identity.Name;
+                await _context.SaveChangesAsync();
+                //_context.Proveedors.Remove(proveedor);
             }
 
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
